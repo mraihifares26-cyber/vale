@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine? 💕</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Entry Screen -->
+    <div id="entryScreen" class="entry-screen">
+        <div class="entry-content">
+            <div class="envelope-wrapper">
+                <div class="envelope">
+                    <div class="envelope-flap"></div>
+                    <div class="envelope-body"></div>
+                    <div class="letter">
+                        <div class="letter-content">
+                            <span class="letter-emoji">💌</span>
+                            <p>You have a special message...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="openBtn" class="open-button">Open Letter 💕</button>
+        </div>
+    </div>
+
+    <!-- Loading Screen -->
+    <div id="loadingScreen" class="loading-screen hidden">
+        <div class="loading-content">
+            <div class="heart-loader">
+                <div class="heart-piece"></div>
+                <div class="heart-piece"></div>
+            </div>
+            <h2 class="loading-text">Preparing something special...</h2>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <div class="floating-hearts">
+                <span>💖</span>
+                <span>💕</span>
+                <span>💗</span>
+                <span>💓</span>
+                <span>💝</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="mainContent" class="main-content hidden">
+        <div class="container">
+            <div class="heart-background">
+                <div class="heart"></div>
+                <div class="heart"></div>
+                <div class="heart"></div>
+                <div class="heart"></div>
+                <div class="heart"></div>
+                <div class="heart"></div>
+            </div>
+
+            <div class="content">
+                <div class="image-container">
+                    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Beating%20Heart.png" alt="Beating Heart" class="main-emoji">
+                </div>
+
+                <h1>Will You Be My Valentine? 💝</h1>
+                <p class="subtitle">I have something important to ask you...</p>
+
+                <div class="decorative-line">
+                    <span>✨</span>
+                    <span>💕</span>
+                    <span>✨</span>
+                </div>
+
+                <div class="buttons">
+                    <button class="yes-btn" id="yesBtn">
+                        <span class="btn-icon">💕</span>
+                        Yes!
+                    </button>
+                    <button class="no-btn" id="noBtn">
+                        <span class="btn-icon">😢</span>
+                        No
+                    </button>
+                </div>
+
+                <div id="response" class="response hidden">
+                    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Partying%20Face.png" alt="Party" class="response-emoji">
+                </div>
+
+                <div class="bottom-decoration">
+                    <div class="rose">🌹</div>
+                    <div class="rose">🌹</div>
+                    <div class="rose">🌹</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
